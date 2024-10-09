@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# UltrasonicMQTTDashboard
+
+## Overview
+
+UltrasonicMQTTDashboard is a real-time web-based dashboard designed to visualize ultrasonic sensor data received via MQTT protocol. This project enables easy monitoring and analysis of sensor readings, making it ideal for various applications in automation, robotics, and IoT.
+
+## Features
+
+- Real-time data visualization of ultrasonic sensor readings.
+- MQTT connection for efficient data transmission.
+- User-friendly interface with customizable views.
+- Responsive design for accessibility on different devices.
+- Easy setup and configuration.
+
+## Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript (or a framework like Next Js)
+- **MQTT Client:** (e.g., MQTT.js, Mosquitto)
+
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next js and npm mqtt
+- An MQTT broker (e.g., Mosquitto)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ultrasonic-mqtt-dashboard.git
+   npm i mqtt

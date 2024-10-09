@@ -1,0 +1,25 @@
+{
+  "name": "ultrasonic-mqtt-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "apexcharts": "^3.54.0",
+    "mqtt": "^5.10.1",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-apexcharts": "^1.4.1",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
